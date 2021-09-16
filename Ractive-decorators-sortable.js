@@ -3,7 +3,7 @@
 	Ractive-decorators-sortable
 	===========================
 
-	Version 0.2.1.
+	Version 0.2.2.
 
 	This plugin adds a 'sortable' decorator to Ractive, which enables
 	elements that correspond to array members to be re-ordered using
@@ -64,7 +64,7 @@ var sortableDecorator = (function ( global, factory ) {
 
 	// Common JS (i.e. browserify) environment
 	if ( typeof module !== 'undefined' && module.exports && typeof require === 'function' ) {
-		factory( require( 'Ractive' ) );
+		factory( require( 'ractive' ) );
 	}
 
 	// AMD?
